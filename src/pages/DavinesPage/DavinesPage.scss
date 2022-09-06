@@ -1,0 +1,26 @@
+
+  .davines-item{
+    display: block;
+    align-items: center;
+    
+
+    .davines-logo{
+      margin-bottom: 20px;
+
+      
+      img{
+        width: 200px;
+        height: auto;
+        border: whitesmoke solid 1px;
+        border-radius: 5px;
+      }
+      
+    }
+    .davines-text{
+      p{
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+

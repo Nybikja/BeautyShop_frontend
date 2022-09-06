@@ -1,0 +1,74 @@
+.item, .admin-list-heading{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    div{
+        border-right: 1px solid  rgba(26,26,26,0.1);
+        text-align: center;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+.admin-list-heading{
+    background-color: whitesmoke;
+    border-top: 1px solid  rgba(26,26,26,0.1);
+    border-bottom: 1px solid  rgba(26,26,26,0.1);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    border-radius: 5px;
+
+    p{
+        margin: 0;
+        font-size: 24px;
+    }
+    div{
+        border-right: 1px solid  rgba(26,26,26,0.1);
+        text-align: center;
+        height: 30px;
+        
+    }
+}
+    .item{
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 10px;
+        &:hover{
+            transition: box-shadow 0.3s ease-in-out;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+        }
+        
+    }
+
+
+    .item-imgUrl{
+        width: 25%;
+        border-left: 1px solid  rgba(26,26,26,0.1);
+        overflow: hidden;
+        img{
+            height: 140%;
+        }
+    }
+    .item-name{
+        width: 65%;
+        p{
+            font-size: 24px;
+        }
+    }
+    .item-action{
+        width: 10%;
+        border-right: 1px solid  rgba(26,26,26,0.1);
+        button{
+            height: 50%;
+            width: 100%;
+            img{
+                width: 20px;
+            }
+        }
+    }

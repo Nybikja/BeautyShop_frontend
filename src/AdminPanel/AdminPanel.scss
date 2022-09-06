@@ -1,0 +1,83 @@
+.admin-wrapper{
+    background-color: #e6e6e6;
+    color: #1A1A1A ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.list-heading{
+    margin-top: 77px;
+    height: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    p, button{
+        font-size: 24px;
+        margin: 0;
+        border-radius: 5px;
+    }
+    
+
+}
+
+.admin-list{
+    width: 96%;
+    height: 80vh;
+    background-color: #e6e6e6;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow-y: scroll;
+}
+
+
+
+.list-form{
+    label{
+        width: 100px;
+    }  
+    
+    span{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+}
+
+//modal-windows
+.modal-body{
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+
+
+
+
+.pagination{
+    width: 100%;
+
+    bottom: 0px;
+    input{
+        width: 200px;
+        height: 30px;
+        margin: 0;
+    };
+    
+    button{
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 30px;
+        margin: 0 5px 0 5px;
+        padding: 0;
+        svg{
+            width: 100%;
+        }
+    }
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+   
+}
+

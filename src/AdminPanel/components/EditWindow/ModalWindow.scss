@@ -1,0 +1,64 @@
+.modal {
+
+.input-group{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 10px;
+        border: 1px solid #e6e6e6;
+    label, select{
+        background-color: white;
+        border: none;
+    }
+    label{
+        width: 50%;
+    }
+    select{
+        width: 50%;
+        border: none;
+    }
+    
+}
+
+.modal-content{
+    border-radius: 10px;
+    label, input, span{
+        font-size: 18px;
+    }
+ 
+    .ant-input{
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #e6e6e6;
+        padding: 1rem;
+        width: 100%;
+        max-width: 100%;
+    }
+ 
+}
+.ant-upload{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: #e6e6e6;
+    
+}
+
+
+.input-img{
+    height: 60vh;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.img-holder{
+    width: 300px;
+}
+}

@@ -1,0 +1,125 @@
+.davines-img{
+  background: url(/img/davines/davinesfull.jpg);
+}
+.club-img{
+  background: url(/img/davines/wefull.jpg);
+}
+
+.welcomescreen{
+  overflow: hidden;
+  position: fixed;
+  top:67px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-y;
+  background-size: 100vw ,100vh;
+  filter: brightness(40%);
+}
+  .clubshop-intro{
+    overflow: hidden;
+    height:  100vh;
+    width: 100%;
+   
+    .intro-text{
+      height: 5rem;
+      width: 100%;
+      background-attachment: scroll;
+      background-color: rgba($color: whitesmoke, $alpha: 0.9);
+      img{
+        width: auto;
+        height: 32px;
+      }
+      p{
+        color: black;
+        font-size: 28px;
+        white-space: nowrap;
+        padding: 20px;
+        font-weight: 400;
+        
+      }
+    }
+   
+    .angels-down{
+      width: 48px;
+      position: absolute;
+      top: 80vh;
+      border-radius: 10px;
+      opacity: 0.8;
+
+    }
+  }
+  .section-bg{
+    background-color: rgba($color: black, $alpha: 0.4);
+    border-radius: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clubshop-info{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    .info-item, .davines-item {
+        margin: 10px;
+        min-height: 96px;
+        
+        .info-logo, .davines-logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .info-text, .davines-text{
+            p{
+            font-size: 24px;
+            font-weight: 300;
+            
+        }
+        }
+    }
+}
+
+.block-bg{
+    background-color: rgba($color: #e6e6e6, $alpha: 0.9);
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+.block-text{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    
+   
+}
+
+.clubshop-end{
+    margin-top: 50px;
+    padding: 1rem ;
+    border-radius: 10px;
+    text-align: center;
+    .end-text{
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .end-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        img{
+            width: 64px;
+            height: 64px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.63);
+        }
+    }
+
+}

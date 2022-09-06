@@ -1,0 +1,52 @@
+.navbar{
+  background-color: whitesmoke;
+  font-size: 1.5rem;
+  .links-align{
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .navbar-brand{
+    img{
+      height: 50px;
+      margin: 0;
+      margin-right: 20px;
+    }
+  }
+  .cart-over{
+    display: flex;
+    align-items: center;
+    a{
+      margin: 0;
+      padding: 0;
+    }
+  }
+  h1{
+    font-weight: 500;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .cart-button{
+    height: 25px;
+    opacity: 0.8;
+  }
+  .items-amount{
+    color:black;
+  }
+  .navbar-toggler{
+    border: none;
+    &:hover{
+      border: none;
+    }
+    &:active{
+      border: none;
+    }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height:30px;;
+  }}
+}
